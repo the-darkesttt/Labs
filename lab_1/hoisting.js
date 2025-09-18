@@ -1,5 +1,6 @@
-helloWorld(myName);
-const helloWorld = (name) => {
+var helloWorld = (name) => {
     console.log(`Hello World from ${name}!`);
 };
-let myName = "Bella";
+helloWorld(myName);
+var myName = "Bella";
+helloWorld(myName);
