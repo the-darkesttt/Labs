@@ -47,4 +47,4 @@ function sum4(...args) {
 
 const sum5 = (...args) => {
     return args.reduce((acc, current) => acc + current, 0);
-};
+}
