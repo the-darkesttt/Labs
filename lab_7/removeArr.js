@@ -15,5 +15,5 @@ function removeElements (arr, ...i){
     for (const s of i) {
         const index = arr.indexOf(s);
             arr.splice(index, 1);
-    }
+    };
 }
