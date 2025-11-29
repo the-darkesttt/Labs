@@ -14,5 +14,5 @@ function pipe (...fns)  {
     }
     return (x) => {
         return fns.reduce((value, fn) => fn(value), x);
-    };
+    }
 }
