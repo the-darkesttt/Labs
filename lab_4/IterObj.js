@@ -11,6 +11,6 @@ function ages (persons){
     for (const name in persons) {
         const data = persons[name];
         res[name] = data.died - data.born; 
-    }
+    };
     return res;
 }
