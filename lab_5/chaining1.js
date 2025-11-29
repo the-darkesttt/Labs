@@ -12,7 +12,7 @@ function seq(firstFunc) {
             let result = arg;
             for (let i = func.length - 1; i >= 0; i--) {
                 result = func[i](result);
-            }
+            };
             return result;
         } else {
             func.push(arg);
