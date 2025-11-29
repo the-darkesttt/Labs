@@ -7,8 +7,8 @@ function max(mm) {
         for (const num of row) {
             if (num > max) {
                 max = num;
-            }
-        }
-    }
+            };
+        };
+    };
     return max;
 }
