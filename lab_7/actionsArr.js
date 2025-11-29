@@ -21,7 +21,7 @@ function difference (array1, array2){
     for (const item of array1) {
         if (!array2.includes(item)) {
             res.push(item);
-        }
+        };
     }
     return res;
 }
