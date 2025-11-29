@@ -13,7 +13,7 @@ function contract (fn, ...types){
             if (arg.constructor !== expectedType) {
                 throw new TypeError(`Ви конкретно нерпаві тут`);
             }
-        }
+        };
         const result = fn(...args);
         if (result.constructor !== y) {
             throw new TypeError(`You're not even trying`);
